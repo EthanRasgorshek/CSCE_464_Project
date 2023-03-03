@@ -19,7 +19,11 @@
       <input type="radio" id="five-stars" name="stars" value="five">
       <label for="five-stars">Five Stars</label><br>
 
-      <input class="email-input" name="email" type="email" placeholder="Email Address" pattern=".+@unl\.edu" title="Please provide a valid UNL email address."><br>
+      <input class="email-input" name="email" type="email" placeholder="Email Address" title=
+                  "x@y.z, x and y can have . or -, z only 2 or 3 letters"
+                  pattern=
+                  "^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})$"
+                  required><br>
 
       <input type="button" value="Submit" onclick="submitResults(this.form)">
     </form>
