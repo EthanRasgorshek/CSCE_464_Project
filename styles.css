@@ -1,0 +1,36 @@
+.header {
+  width: 100%;
+  text-align: center;
+}
+
+.section-header {
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto;
+  border-bottom: 2px black solid
+}
+
+body {
+  background-color: lightblue
+}
+
+.about-me {
+  text-align: center;
+  font-size: larger;
+  margin: 10px
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.workplace {
+  margin: 0 10px;
+}
+
+.image {
+  width: 124px;
+  height: 130px;
+  margin: 10px;
+}
