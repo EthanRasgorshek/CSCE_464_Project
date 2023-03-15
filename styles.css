@@ -1,3 +1,15 @@
+body {
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  border-color: white;
+  color: white;
+}
+
 .header {
   width: 100%;
   text-align: center;
@@ -10,8 +22,11 @@
   border-bottom: 2px black solid
 }
 
-body {
-  background-color: lightblue
+.dark-section-header {
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto;
+  border-bottom: 2px white solid
 }
 
 .about-me {
@@ -33,4 +48,39 @@ body {
   width: 124px;
   height: 130px;
   margin: 10px;
+}
+
+.light-navbar {
+  height: 20px;
+  width: 100%;
+  border: 2px black solid;
+  display: flex;
+}
+
+.dark-navbar {
+  height: 20px;
+  width: 100%;
+  border: 2px white solid;
+  display: flex;
+}
+
+.light-navbar-item {
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  width: 20%;
+  text-align: center;
+}
+
+.dark-navbar-item {
+  border-left: 1px white solid;
+  border-right: 1px white solid;
+  width: 20%;
+  text-align: center;
+}
+
+#project-select {
+  width: 100%;
+  text-align: center;
+  background-color: inherit;
+  color: inherit;
 }
